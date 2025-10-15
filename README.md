@@ -20,40 +20,6 @@ A modern, eye-catching **Flutter News Application** built with **Provider**, **R
 
 ---
 
-## 🧱 Project Structure
-
-lib/
-│
-├── api/
-│ └── news_api.dart # Handles all API calls
-│
-├── models/
-│ └── article_model.dart # News article model with published date
-│
-├── providers/
-│ └── news_provider.dart # State management with Provider
-│
-├── screens/
-│ ├── home_screen.dart # Home page with filters and news feed
-│ └── article_detail_screen.dart # Article details and full read view
-│
-├── widgets/
-│ ├── app_bar_widget.dart # Search bar and filter button
-│ ├── dropdown_filter.dart # Dropdown for country/language/category
-│ ├── news_card.dart # News list card layout
-│ └── filter_popup.dart # Popup with filter dropdowns
-│
-├── theme/
-│ ├── app_theme.dart # App theme setup
-│ └── color_constants.dart # Color palette constants
-│
-├── utils/
-│ └── preferences_helper.dart # Manages saving/loading filters
-│
-└── main.dart # App entry point
-
----
-
 ## 🔑 Setup Instructions
 
 ### 1️⃣ Clone the Repository
